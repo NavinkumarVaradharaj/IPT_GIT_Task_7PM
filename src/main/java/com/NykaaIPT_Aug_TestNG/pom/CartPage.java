@@ -2,6 +2,7 @@ package com.NykaaIPT_Aug_TestNG.pom;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 import org.openqa.selenium.support.PageFactory;
 
 import com.NykaaIPT_Aug_TestNG.base.BaseClass;
@@ -12,7 +13,7 @@ public class CartPage extends BaseClass implements Cart {
 		PageFactory.initElements(driver, this);
 		
 	}
-	
+
 	@FindBy(xpath=bag_icon_xpath)
 	private WebElement bag_icon;
 	
@@ -27,5 +28,18 @@ public class CartPage extends BaseClass implements Cart {
 		return bag_frame;
 	}
 	
+	@FindBy(xpath = "delete_icon_xpath")
+	private WebElement delete_icon;
+	
+	public WebElement getDelete_icon() {
+		return delete_icon;
+	}
+	
+	@FindBy(xpath = "remove_btn_xpath")
+	private WebElement remove_btn;
+	
+	public WebElement getRemove_btn() {
+		return remove_btn;
+	}
 	
 }

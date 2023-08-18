@@ -1,5 +1,15 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Nila
 Build-Jdk: 17.0.8
+=======
+<<<<<<< HEAD
+Built-By: Admin
+Build-Jdk: 17.0.7
+=======
+Built-By: Dharshan PJ
+Build-Jdk: 17.0.5
+>>>>>>> 29e6e12e4e2313de9ca140f86acfe612fc187b3f
+>>>>>>> 773189b739291f3cb6c131c9b3b99d0071a638e2
 Created-By: Maven Integration for Eclipse
 
